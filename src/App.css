@@ -1,0 +1,61 @@
+header{
+    background-color: rgb(128, 194, 229);
+}
+img{
+    max-width: 100%;
+}
+li {
+    padding-left: 20px;
+    
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+ul a {
+    color: white;
+}
+
+
+
+.container-home{
+    margin: 0 auto;
+    width: 90%;
+}
+.product {
+    background-color: rgba(199, 229, 242, 0.597);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.product .image {
+    text-align: center;
+}
+
+.product img {
+    max-height: 150px;
+}
+
+.product h5 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.active{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: rgb(128, 194, 229);
+}
+.home-img{
+    width: 2000px;
+}
+.title-home{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    background-color: rgb(128, 194, 229);
+    padding: 50px;
+}
