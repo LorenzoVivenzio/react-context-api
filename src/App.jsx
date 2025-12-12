@@ -5,11 +5,13 @@ import Prodotti from "./pages/Prodotti"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import DefaultLayout from './layout/DefaultLayout'
 import SingoloProdotto from './pages/SingoloProdotto'
+import { BudgetProvider } from './context/BudgetContext'
 
 function App() {
 
   return (
     <>
+    <BudgetProvider>
       <BrowserRouter>
         <Routes>
           <Route element={<DefaultLayout />}>
@@ -21,6 +23,7 @@ function App() {
 
         </Routes>
       </BrowserRouter>
+      </BudgetProvider>
     </>
   )
 }
