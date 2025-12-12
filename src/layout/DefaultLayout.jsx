@@ -8,7 +8,6 @@ export default function DefaultLayout (){
         <main>
             <Outlet/>
         </main>
-        <footer>Footer</footer>
         </>
     )
 }

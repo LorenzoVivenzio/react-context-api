@@ -1,4 +1,3 @@
-
 import axios from "axios";
 import { useEffect,useState } from "react";
 import { useParams } from "react-router-dom";
@@ -12,8 +11,6 @@ export default function SingoloProdotto(){
         axios.get(`https://fakestoreapi.com/products/${id}`)
         .then((resp) => {
             setProdotto(resp.data)
-            console.log(resp.data);
-            
         })
     },[id]);
 
